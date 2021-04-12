@@ -7,7 +7,7 @@ int main()
     cout<<"Enter the string"<<endl;
     cin>>s;
     int n=s.size();int c=0;
-    string s2="SOS";
+    string s2="SOS";int d=0;
     for(int i=0;i<n;i=i+3)
     {
         string s1=s.substr(i,3);
